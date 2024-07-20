@@ -1,24 +1,20 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import TodoForm from "./components/todoform/TodoForm";
-import Tabs from "./components/tabs/Tabs";
-import TodoList from "./components/todolist/TodoList";
-import { getRecordsfromLocal, storeDataLocal } from "./utils/storage";
-import { TasksProvider } from "./context/tasksContext";
-import Alert from "./components/alert/Alert";
+import React from 'react'
+import Login from './Login'
+import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import Todo from './Todo'
+// index.js or App.js
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
-function App() {
+const App = () => {
   return (
-    <TasksProvider>
-      <div className="container">
-        <div className="app_title">Todo App</div>
-        <Alert />
-        <TodoForm />
-        <Tabs />
-        <TodoList />
-      </div>
-    </TasksProvider>
-  );
+    // <div>App</div>
+    <BrowserRouter>
+    <Routes>
+  <Route path="/" element={<Login />}/>
+  <Route path="/todo" element={<Todo />}/>
+  </Routes>
+  </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
