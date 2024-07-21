@@ -35,9 +35,9 @@ Visual Feedback: Provides visual cues for task status (e.g., completed, pending)
 
 # Tech Stack
 
-React: A JavaScript library for building user interfaces.
-Context API: Part of React for managing global state.
-Local Storage: Web storage to store data locally within the user's browser.
-Styled Components: A library for writing CSS-in-JS for styling React components.
+->React: A JavaScript library for building user interfaces.
+->Context API: Part of React for managing global state.
+->Local Storage: Web storage to store data locally within the user's browser.
+->Styled Components: A library for writing CSS-in-JS for styling React components.
 
 
