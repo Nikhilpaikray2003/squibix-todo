@@ -159,6 +159,63 @@ Start the frontend server (from the frontend directory)
 Access the application by visiting http://localhost:5173/ in your web browser.
 
 
+# Acknowledgements
+
+We would like to express our gratitude to all the contributors and users who have provided valuable feedback and helped improve this website.
+
+# Feedback
+
+
+We value your feedback and appreciate your help in improving our TODO list application. Here are a few ways you can share your thoughts and suggestions:
+
+➜How to Provide Feedback
+
+  GitHub Issues: If you encounter any bugs or have feature requests, please open an issue on our GitHub repository. Provide as much detail as possible to help us understand and address your concerns.
+  
+  Email: You can send your feedback directly to us via email at [your-email@example.com]. Detailed feedback and suggestions are always welcome.
+  
+  Survey: Complete our short feedback survey to share your thoughts on the application. Your responses will help us prioritize future updates and improvements.
+
+➜What to Include in Your Feedback
+
+  When providing feedback, consider including the following information:
+  
+  Description of the Issue: Describe the problem you encountered or the feature you are suggesting in detail.
+  
+  Steps to Reproduce: If applicable, provide the steps to reproduce the issue.
+  
+  Screenshots: Include any relevant screenshots that may help us visualize the problem or suggestion.
+  
+  Device and Browser Information: Let us know the device and browser you were using when you encountered the issue.
+
+➜Areas for Feedback
+
+
+  User Interface: Is the interface intuitive and user-friendly? Are there any elements that could be improved?
+  
+  Functionality: Are the CRUD operations (Create, Read, Update, Delete) working as expected? Is there any additional functionality you would like to see?
+  
+  Performance: Does the application perform well? Are there any delays or issues with responsiveness?
+  
+  Design: How do you feel about the design and styling of the application? Are there any suggestions for improvement?
+  
+  Overall Experience: Share your overall experience using the application. What did you like most? What can be improved?
+
+Thank You!
+
+Thank you for taking the time to provide feedback. Your input is invaluable in helping us make this TODO list application better for everyone. We look forward to hearing from you!
+
+
+
+Please refer to the documentation section for installation instructions, usage guidelines, and project structure. If you have any questions or need assistance, do not hesitate to reach out to us. We are here to support and guide you through your experience with the application.
+
+
+
+Happy browsing! 🏨
+
+
+
+
 
 
 
