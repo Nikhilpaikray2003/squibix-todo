@@ -61,10 +61,10 @@ The application supports essential CRUD operations, enabling users to create, re
 # ScreenShots
 
 
+![Screenshot (129)](https://github.com/user-attachments/assets/da19f0ab-6694-4893-bd68-16ca10ace953)
 
-![Screenshot (129)](https://github.com/user-attachments/assets/386b5a47-010d-4e58-8898-3d48ed1b75ba)
+![Screenshot (130)](https://github.com/user-attachments/assets/26f78806-9386-4751-b027-0a86048e4b5d)
 
-[Screensho![Screenshot (130)](https://github.com/user-attachments/assets/b790fe5b-56e4-45b5-8b8f-4c716936c472)
 
 ![Screenshot (136)](https://github.com/user-attachments/assets/bf62ccff-82df-4e55-869c-c99b3efc1042)
 
