@@ -139,6 +139,27 @@ Clone the repository:
   git clone https://github.com/Nikhilpaikray2003/squibix-todo.git
 ```
 
+Navigate to the project directory:
+
+```bash
+  cd todolist
+```
+
+
+To start the development server for frontend, run the following commands:
+
+Start the frontend server (from the frontend directory)
+
+```bash
+  npm create vite
+  npm install
+  npm run dev
+```
+
+Access the application by visiting http://localhost:5173/ in your web browser.
+
+
+
 
 
 
