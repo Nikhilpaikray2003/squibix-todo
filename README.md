@@ -32,3 +32,7 @@ Adaptive: Ensures a great user experience on both desktop and mobile screens.
 ->User-Friendly Interface
 Intuitive Design: Simple and easy-to-use interface for managing tasks efficiently.
 Visual Feedback: Provides visual cues for task status (e.g., completed, pending).
+
+#
+
+
