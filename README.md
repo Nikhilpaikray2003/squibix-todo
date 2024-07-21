@@ -134,6 +134,12 @@ The application supports essential CRUD operations, enabling users to create, re
   To run the project locally on your machine, follow these steps:
 
 Clone the repository:
-git clone https://github.com/Nikhilpaikray2003/squibix-todo.git
+
+```bash
+  git clone https://github.com/Nikhilpaikray2003/squibix-todo.git
+```
+
+
+
 
 
