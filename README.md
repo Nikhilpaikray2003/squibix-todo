@@ -58,3 +58,14 @@ Styled Components: Provides a modular and dynamic approach to styling, enhancing
 The application supports essential CRUD operations, enabling users to create, read, update, and delete tasks with ease.
 
 
+# ScreenShots
+
+
+
+![Screenshot (129)](https://github.com/user-attachments/assets/386b5a47-010d-4e58-8898-3d48ed1b75ba)
+
+
+![Screenshot (130)](https://github.com/user-attachments/assets/4b9594c9-d37e-4a99-b941-38b77e08367a)
+
+
+
