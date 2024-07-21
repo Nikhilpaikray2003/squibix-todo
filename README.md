@@ -63,9 +63,9 @@ The application supports essential CRUD operations, enabling users to create, re
 
 
 ![Screenshot (129)](https://github.com/user-attachments/assets/386b5a47-010d-4e58-8898-3d48ed1b75ba)
-
-
 ![Screenshot (130)](https://github.com/user-attachments/assets/4b9594c9-d37e-4a99-b941-38b77e08367a)
-
-
-
+![Screenshot (131)](https://github.com/user-attachments/assets/3eb3b04f-fcc0-4e62-80b2-2492ddf9b7e5)
+![Screenshot (132)](https://github.com/user-attachments/assets/883c8d39-f728-402b-bc2d-f6d300bd0c58)
+![Screenshot (133)](https://github.com/user-attachments/assets/57451b87-9205-47c7-b429-703a18d51ca4)
+![Screenshot (134)](https://github.com/user-attachments/assets/b86ea220-85db-4e12-8a97-3cdbb7842361)
+![Screenshot (135)](https://github.com/user-attachments/assets/850b8842-b710-4ef7-b4a5-3b29d996a856)
