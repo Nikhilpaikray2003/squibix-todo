@@ -63,12 +63,15 @@ The application supports essential CRUD operations, enabling users to create, re
 
 
 ![Screenshot (129)](https://github.com/user-attachments/assets/386b5a47-010d-4e58-8898-3d48ed1b75ba)
-![Screenshot (130)](https://github.com/user-attachments/assets/4b9594c9-d37e-4a99-b941-38b77e08367a)
-![Screenshot (131)](https://github.com/user-attachments/assets/3eb3b04f-fcc0-4e62-80b2-2492ddf9b7e5)
-![Screenshot (132)](https://github.com/user-attachments/assets/883c8d39-f728-402b-bc2d-f6d300bd0c58)
-![Screenshot (133)](https://github.com/user-attachments/assets/57451b87-9205-47c7-b429-703a18d51ca4)
-![Screenshot (134)](https://github.com/user-attachments/assets/b86ea220-85db-4e12-8a97-3cdbb7842361)
-![Screenshot (135)](https://github.com/user-attachments/assets/850b8842-b710-4ef7-b4a5-3b29d996a856)
+![Screenshot (130)](https://github.com/user-attachments/assets/4b9594c9-d37e-4a99-b941-38![Screenshot (136)](https://github.com/user-attachments/assets/55df5213-e910-461c-8d89-0fa953d0a19c)
+b77e08367a)
+![Screenshot (137)](https://github.com/user-attachments/assets/9c621e6c-b764-4aa7-bf93-cf0e7c1c5be4)
+![Screenshot (138)](https://github.com/user-attachments/assets/c8c2caf7-23fd-4873-b8a1-1ff812128813)
+![Screenshot (139)](https://github.com/user-attachments/assets/dd0e6781-2afc-412c-9942-83badeaa3bfd)
+![Screenshot (140)](https://github.com/user-attachments/assets/78671d6b-1b62-4663-a599-51f9cc058a2a)
+![Screenshot (141)](https://github.com/user-attachments/assets/aac12f4e-e8c5-4c27-b114-408de9553766)
+
+
 
 
 # FAQ
