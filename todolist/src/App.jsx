@@ -3,7 +3,7 @@ import Login from './Login'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Todo from './Todo'
 // index.js or App.js
-import '@fortawesome/fontawesome-free/css/all.min.css';
+ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
   return (

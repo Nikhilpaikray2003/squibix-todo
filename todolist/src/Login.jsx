@@ -13,7 +13,7 @@ import {
   Button,
   OverlayContainer,
   OverlayPanel,
-  Overlay
+  Overlay,
 } from "./styles/index.style";
 import { useNavigate } from "react-router-dom";
 
@@ -27,48 +27,53 @@ function Login() {
     setPanelActive(true);
   };
 
-  const navigate=useNavigate()
-  const [Username, setUsername] = useState("")
-  const [Password, setPassword] = useState("")
+  const navigate = useNavigate();
+  const [Username, setUsername] = useState("");
+  const [Password, setPassword] = useState("");
   // const [status, setstatus] = useState("")
-  const signer=()=>{
-    console.log("SIgner CLicked" + Username);
+  const signer = () => {
+    if(Username.length!=0 && Password.length!=0)
+    {
+      console.log("SIgner CLicked" + Username);
     console.log(localStorage.getItem(JSON.stringify(Username)));
-    if((localStorage.getItem(JSON.stringify(Username)))==JSON.stringify(Password))
+    if (
+      localStorage.getItem(JSON.stringify(Username)) == JSON.stringify(Password)
+    ) {
+      navigate("/todo");
+      localStorage.setItem("status", JSON.stringify(Username));
+    } else {
+      navigate("/");
+    }
+    }
+  };
+
+  const register = () => {
+    if(Username.length!=0)
     {
-      navigate("/todo")
-      localStorage.setItem("status",JSON.stringify(Username))
+      console.log("Register Clicked");
+    localStorage.setItem(JSON.stringify(Username), JSON.stringify(Password));
+    onSignInEvent()
+    setPanelActive(false);
     }
-    else{
-      navigate('/')
-    }
-  }
-
-  const register=()=>{
-    console.log("Register Clicked");
-    localStorage.setItem(JSON.stringify(Username),JSON.stringify(Password))
-    navigate("/")
-    setPanelActive(true);
-
-  }
+  };
   useEffect(() => {
-    if(JSON.parse(localStorage.getItem("status"))!=null)
-    {
+    if (JSON.parse(localStorage.getItem("status")) != null) {
       console.log(localStorage.getItem("status"));
-      navigate("/todo")
+      navigate("/todo");
     }
-  }, [])
-  
+  }, []);
 
   return (
-    <Fragment>
+    <div
+      style={{
+        maxWidth: "100vw",
+      }}>
       <GlobalStyles />
       <Container
         id="container"
-        className={`${panelActive ? "right-panel-active" : ""}`}
-      >
+        className={`${panelActive ? "right-panel-active" : ""}`}>
         <FormContainer className="sign-up-container">
-          <Form action="#" onSubmit={e => e.preventDefault()}>
+          <Form action="#" onSubmit={(e) => e.preventDefault()}>
             <Head>Create Account</Head>
             <SocialContainer>
               <Link href="#" className="social">
@@ -79,9 +84,19 @@ function Login() {
               </Link>
             </SocialContainer>
             <Span>or use your email for registration</Span>
-            <Input type="text" placeholder="Username" value={Username} onChange={(e)=>setUsername(e.target.value)}/>
+            <Input
+              type="text"
+              placeholder="Username"
+              value={Username}
+              onChange={(e) => setUsername(e.target.value)}
+            />
             {/* <Input type="text" placeholder="Email" /> */}
-            <Input type="text" placeholder="Password" value={Password} onChange={(e)=>setPassword(e.target.value)}/>
+            <Input
+              type="text"
+              placeholder="Password"
+              value={Password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
             <Button onClick={register}>Sign Up</Button>
           </Form>
         </FormContainer>
@@ -97,9 +112,19 @@ function Login() {
               </Link>
             </SocialContainer>
             <Span>or use your account</Span>
-            <Input type="text" placeholder="Username" value={Username} onChange={(e)=>setUsername(e.target.value)}/>
+            <Input
+              type="text"
+              placeholder="Username"
+              value={Username}
+              onChange={(e) => setUsername(e.target.value)}
+            />
             {/* <Input type="text" placeholder="Email" /> */}
-            <Input type="text" placeholder="Password" value={Password} onChange={(e)=>setPassword(e.target.value)}/>
+            <Input
+              type="text"
+              placeholder="Password"
+              value={Password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
             <Link href="#">Forgot your password?</Link>
             <Button onClick={signer}>Sign In</Button>
           </Form>
@@ -125,7 +150,7 @@ function Login() {
           </Overlay>
         </OverlayContainer>
       </Container>
-    </Fragment>
+    </div>
   );
 }
 

@@ -30,3 +30,45 @@
   color: green;
   font-size: 16px;
 }
+
+.tabs_list{
+  margin: 20px 0px;
+}
+
+@media screen and (max-width:800px) {
+  .container{
+    width: 100%;
+    min-height: 100vh;
+    margin: 20px 10px;
+  }
+  .todo-heading{
+    /* margin: 100px 0px; */
+    font-size: 40px !important;
+  }
+  .tabs_list{
+    margin: 20px 0px;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+  .btn{
+    font-size: 14px !important;
+  }
+  .fOUBHR form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0px !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (max-width:380px) {
+
+  .fOUBHR input {
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 89%;
+}
+  
+}
