@@ -74,15 +74,19 @@ The application supports essential CRUD operations, enabling users to create, re
 # FAQ
 
 ➜What is this application for?
+
   This TODO application is designed to help users manage their tasks efficiently. It allows users to create, view, update, and delete tasks easily.
 
 ➜How does the application save my tasks?
+
   The application uses the browser's local storage to save tasks. This means your tasks will persist across sessions and will be available even if you close and reopen your browser.
 
 ➜Can I access my tasks on different devices?
+
   Currently, the tasks are stored locally on your device using local storage, so they are not synced across different devices.
 
 ➜What technologies are used in this application?
+
   The application is built using the following technologies:
 
   React: A JavaScript library for building user interfaces.
@@ -94,24 +98,31 @@ The application supports essential CRUD operations, enabling users to create, re
   Styled Components: A library for writing CSS-in-JS for styling React components.
 
 ➜How do I add a new task?
+
     To add a new task, simply enter your task in the input field and click the "Add Task" button. The task will be added to your list.
 
 ➜How can I edit a task?
+
   To edit a task, click on the task you wish to edit. Make your changes in the input field and save the updated task.
 
 ➜How do I delete a task?
+
   To delete a task, click the "Delete" button next to the task you want to remove. The task will be permanently removed from your list.
 
 ➜Is the application responsive?
+
   Yes, the application is designed to be fully responsive, providing a seamless experience on both desktop and mobile devices.
 
 ➜Can I customize the appearance of the application?
+
   The application uses Styled Components, which allows for easy customization of the UI. You can modify the styles by editing the styled components in the code.
 
 ➜What should I do if I encounter a bug?
+
   If you encounter any bugs or issues, please open an issue on the GitHub repository with detailed information about the problem. This will help us investigate and resolve the issue more effectively.
 
 ➜How can I contribute to this project?
+
   We welcome contributions! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. Be sure to follow the contribution guidelines outlined in the repository.
 
 
